@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "reco.css",
+	"sources": [
+		"../sass/reco.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');\r\n@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');\r\n\r\n\r\n.cuerpo{\r\n    background: #383639;\r\n    width: all;\r\n    height: all;\r\n    text-align: center;\r\n    font-family: 'Archivo Black', sans-serif;\r\n    color: blanchedalmond;\r\n    padding-top: 15px;\r\n    padding-bottom: 100px;\r\n}\r\n\r\n.recomendaciones{\r\n    width: 70%;\r\n    height: auto;\r\n    justify-content: justify;\r\n    margin: auto;\r\n    padding-top: 10px;\r\n}\r\n\r\n.img{\r\n    border-radius: 15px;\r\n}\r\n.footer{\r\n    background-color: #383639;\r\n    color: blanchedalmond;\r\n    text-align: center;\r\n    height: auto;\r\n    width: all;\r\n    font-family: 'Archivo Black', sans-serif;\r\n    font-size: 25px;\r\n    .api{\r\n        font-size: 15px;\r\n    }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,iEAAI;AACZ,OAAO,CAAC,yEAAI;;AAGZ,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,2BAA2B;EACxC,KAAK,EAAE,cAAc;EACrB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,KAAK;CACxB;;;AAED,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,OAAO;EACxB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;CACpB;;;AAED,AAAA,IAAI,CAAA;EACA,aAAa,EAAE,IAAI;CACtB;;;AACD,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,cAAc;EACrB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,2BAA2B;EACxC,SAAS,EAAE,IAAI;CAIlB;;;AAXD,AAQI,OARG,CAQH,IAAI,CAAA;EACA,SAAS,EAAE,IAAI;CAClB"
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
+/* line 4, ../../../../wamp64/www/COVID/sass/estilos.scss */
+* {
+  margin: 0;
+}
+
+/* line 8, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.principal {
+  background-color: #383639;
+  color: blanchedalmond;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+/* line 14, ../../../../wamp64/www/COVID/sass/estilos.scss */
+table {
+  background-color: white;
+}
+
+/* line 17, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.total {
+  height: auto;
+  width: all;
+  margin: auto;
+  text-align: center;
+  color: blanchedalmond;
+  padding-top: 25px;
+  background-color: #383639;
+}
+
+/* line 28, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.principal .barra_principal {
+  width: 70%;
+  margin: auto;
+}
+
+/* line 32, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.principal .pais {
+  padding-right: 215px;
+}
+
+/* line 35, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.principal h2 {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  /* line 40, ../../../../wamp64/www/COVID/sass/estilos.scss */
+  .pais {
+    padding-right: 10px;
+  }
+}
+
+/* line 44, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.resultados {
+  background-color: #383639;
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/* line 52, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.resultados tr:hover {
+  background-color: #817f83;
+}
+
+/* line 58, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.footer {
+  background-color: #383639;
+  color: blanchedalmond;
+  text-align: center;
+  height: auto;
+  width: all;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 25px;
+}
+
+/* line 66, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.footer .api {
+  font-size: 15px;
+}
+
+/* line 70, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.navbar-brand, .navbar {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+
+/* line 77, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.infectados p {
+  color: yellow;
+  font-size: 50px;
+}
+
+/* line 83, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.muertos p {
+  color: red;
+  font-size: 50px;
+}
+
+/* line 89, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.recuperados p {
+  color: green;
+  font-size: 50px;
+}
+
+/* line 95, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.nuevos p {
+  color: blue;
+  font-size: 50px;
+}
+
+/* line 101, ../../../../wamp64/www/COVID/sass/estilos.scss */
+.n_muertos p {
+  color: orangered;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
