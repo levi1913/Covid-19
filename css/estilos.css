@@ -3,9 +3,10 @@
 /* line 4, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 * {
   margin: 0;
+  background-color: #383639 !important;
 }
 
-/* line 8, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 9, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .principal {
   background-color: #383639;
   color: blanchedalmond;
@@ -13,12 +14,12 @@
   padding-bottom: 10px;
 }
 
-/* line 14, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 15, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 table {
   background-color: white;
 }
 
-/* line 17, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 18, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .total {
   height: auto;
   width: all;
@@ -29,30 +30,30 @@ table {
   background-color: #383639;
 }
 
-/* line 28, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 29, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .principal .barra_principal {
   width: 70%;
   margin: auto;
 }
 
-/* line 32, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 33, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .principal .pais {
   padding-right: 215px;
 }
 
-/* line 35, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 36, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .principal h2 {
   text-align: center;
 }
 
 @media (max-width: 500px) {
-  /* line 40, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+  /* line 41, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
   .pais {
     padding-right: 10px;
   }
 }
 
-/* line 45, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 46, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .resultados {
   background-color: #383639;
   width: 70%;
@@ -62,12 +63,12 @@ table {
   overflow-x: hidden;
 }
 
-/* line 53, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 54, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .resultados tr:hover {
   background-color: #817f83;
 }
 
-/* line 59, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 60, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .footer {
   background-color: #383639;
   color: blanchedalmond;
@@ -78,50 +79,50 @@ table {
   font-size: 25px;
 }
 
-/* line 67, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 68, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .footer .api {
   font-size: 15px;
 }
 
-/* line 71, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 72, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .navbar-brand, .navbar {
   font-family: 'Anton', sans-serif;
   font-size: 20px;
 }
 
-/* line 78, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 79, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .infectados p {
   color: yellow;
   font-size: 50px;
 }
 
-/* line 84, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 85, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .muertos p {
   color: red;
   font-size: 50px;
 }
 
-/* line 90, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 91, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .recuperados p {
   color: green;
   font-size: 50px;
 }
 
-/* line 96, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 97, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .nuevos p {
   color: blue;
   font-size: 50px;
 }
 
-/* line 102, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 103, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .n_muertos p {
   color: orangered;
   font-size: 50px;
 }
 
-/* line 107, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 108, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .cuerpo {
-  background-color: #383639;
+  background-color: #383639 !important;
   width: all;
   height: 100vh;
 }
