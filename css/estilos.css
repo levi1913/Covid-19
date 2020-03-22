@@ -45,7 +45,7 @@ table {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   /* line 40, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
   .pais {
     padding-right: 10px;
