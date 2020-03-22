@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
-/* line 5, ../../../../wamp64/www/COVID/sass/reco.scss */
+/* line 5, ../../../../wamp64/www/COVID/Covid-19/sass/reco.scss */
 .cuerpo {
   background: #383639;
   width: all;
@@ -12,7 +12,7 @@
   padding-bottom: 100px;
 }
 
-/* line 16, ../../../../wamp64/www/COVID/sass/reco.scss */
+/* line 16, ../../../../wamp64/www/COVID/Covid-19/sass/reco.scss */
 .recomendaciones {
   width: 70%;
   height: auto;
@@ -21,12 +21,12 @@
   padding-top: 10px;
 }
 
-/* line 24, ../../../../wamp64/www/COVID/sass/reco.scss */
+/* line 24, ../../../../wamp64/www/COVID/Covid-19/sass/reco.scss */
 .img {
   border-radius: 15px;
 }
 
-/* line 27, ../../../../wamp64/www/COVID/sass/reco.scss */
+/* line 27, ../../../../wamp64/www/COVID/Covid-19/sass/reco.scss */
 .footer {
   background-color: #383639;
   color: blanchedalmond;
@@ -37,7 +37,7 @@
   font-size: 25px;
 }
 
-/* line 35, ../../../../wamp64/www/COVID/sass/reco.scss */
+/* line 35, ../../../../wamp64/www/COVID/Covid-19/sass/reco.scss */
 .footer .api {
   font-size: 15px;
 }
