@@ -36,13 +36,11 @@ table{
         text-align: center;
     }
 }
-@media(min-width:500px){
+@media(max-width:500px){
     .pais{
         padding-right: 10px;
     }
-    .resultados{
-        height: 100vh;
-    }
+ 
 }
 .resultados{
     background-color: #383639;
@@ -109,5 +107,5 @@ table{
 .cuerpo{
     background-color: #383639;
     width: all;
-    height: all;
+    height: 100vh;
 }

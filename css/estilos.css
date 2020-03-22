@@ -45,18 +45,14 @@ table {
   text-align: center;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   /* line 40, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
   .pais {
     padding-right: 10px;
   }
-  /* line 43, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
-  .resultados {
-    height: 100vh;
-  }
 }
 
-/* line 47, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 45, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .resultados {
   background-color: #383639;
   width: 70%;
@@ -66,12 +62,12 @@ table {
   overflow-x: hidden;
 }
 
-/* line 55, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 53, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .resultados tr:hover {
   background-color: #817f83;
 }
 
-/* line 61, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 59, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .footer {
   background-color: #383639;
   color: blanchedalmond;
@@ -82,52 +78,52 @@ table {
   font-size: 25px;
 }
 
-/* line 69, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 67, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .footer .api {
   font-size: 15px;
 }
 
-/* line 73, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 71, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .navbar-brand, .navbar {
   font-family: 'Anton', sans-serif;
   font-size: 20px;
 }
 
-/* line 80, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 78, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .infectados p {
   color: yellow;
   font-size: 50px;
 }
 
-/* line 86, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 84, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .muertos p {
   color: red;
   font-size: 50px;
 }
 
-/* line 92, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 90, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .recuperados p {
   color: green;
   font-size: 50px;
 }
 
-/* line 98, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 96, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .nuevos p {
   color: blue;
   font-size: 50px;
 }
 
-/* line 104, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 102, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .n_muertos p {
   color: orangered;
   font-size: 50px;
 }
 
-/* line 109, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
+/* line 107, ../../../../wamp64/www/COVID/Covid-19/sass/estilos.scss */
 .cuerpo {
   background-color: #383639;
   width: all;
-  height: all;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=estilos.css.map */
