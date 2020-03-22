@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+
+*{
+   margin: 0;
+}
+
+.principal{
+    background-color: #383639;
+    color: blanchedalmond;
+    height: auto;
+    padding-bottom: 10px;
+}
+table{
+    background-color: white;
+}
+.total{
+    height: auto;
+    width: all;
+    margin: auto;
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 25px;
+    background-color: #383639;
+}
+.principal{
+
+    .barra_principal{
+        width: 70%;
+        margin: auto;
+    }
+    .pais{
+        padding-right: 215px;
+    }
+    h2{
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    .pais{
+        padding-right: 10px;
+    }
+}
+.resultados{
+    background-color: #383639;
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    tr:hover{
+        background-color: #817f83;
+    }
+
+   
+}
+.footer{
+    background-color: #383639;
+    color: blanchedalmond;
+    text-align: center;
+    height: auto;
+    width: all;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+    .api{
+        font-size: 15px;
+    }
+}
+.navbar-brand,.navbar{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+
+.infectados{
+    p{
+        color: yellow;
+        font-size: 50px;
+    }
+}
+.muertos{
+    p{
+        color: red;
+        font-size: 50px;
+    }
+}
+.recuperados{
+    p{
+        color: green;
+        font-size: 50px;
+    }
+}
+.nuevos{
+    p{
+        color: blue;
+        font-size: 50px;
+    }
+}
+.n_muertos{
+    p{
+        color: orangered;
+        font-size: 50px;
+    }
+}
+.cuerpo{
+    background-color: #383639;
+    width: all;
+    height: all;
+}
