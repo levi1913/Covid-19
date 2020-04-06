@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Jomolhari&display=swap");
 * {
   margin: 0;
+  background-color: #383639;
 }
 
 .principal {
