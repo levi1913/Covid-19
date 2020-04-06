@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+$letra-tres :'Jomolhari', serif;
 
 *{
    margin: 0;
@@ -68,6 +72,7 @@ table{
     .api{
         font-size: 15px;
     }
+  
 }
 .navbar-brand,.navbar{
     font-family: 'Anton', sans-serif;
@@ -76,37 +81,178 @@ table{
 
 
 .infectados{
+    width: 350px;
+    height: 200px;
+    background: #F8D442;
+    border-radius: 15px;
+    padding:20px;
+    font-size: 10px;
+    font-family: 'Jomolhari', serif;    
+
     p{
-        color: yellow;
-        font-size: 50px;
+        color: black;
+        font-size: 45px;
+        
+    }
+    p::after{
+        content: ' ';
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: -10px;
+        background: url(../img/cuarentena.png);
+        background-size:50px ;
+        background-repeat: no-repeat;
+     
+    }
+    h3{
+        color: black;
     }
 }
 .muertos{
+    width: 350px;
+    height: 200px;
+    background: #F73738;
+    border-radius: 15px;
+    padding:20px;
+    font-family: $letra-tres;
+
     p{
-        color: red;
-        font-size: 50px;
+        color: black;
+        font-size: 45px;
+    }
+    p::after{
+        content: ' ';
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: -10px;
+        background: url(../img/triste.png);
+        background-size:50px ;
+        background-repeat: no-repeat;
+     
+    }
+
+    h3{
+        color: black;
     }
 }
 .recuperados{
+    width: 350px;
+    height: 200px;
+    background: #73D673;
+    border-radius: 15px;
+    padding:20px;
+    font-family: $letra-tres;
+   
     p{
-        color: green;
-        font-size: 50px;
+        color: black;
+        font-size: 45px;
+    }
+    p::after{
+        content: ' ';
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: -10px;
+        background: url(../img/sonreir.png);
+        background-size:50px ;
+        background-repeat: no-repeat;
+     
+    }
+    h3{
+        color: black;
     }
 }
+
 .nuevos{
+    width: 350px;
+    height: 200px;
+    background: #7498C4;
+    border-radius: 15px;
+    padding:20px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: $letra-tres;
+
     p{
-        color: blue;
-        font-size: 50px;
+        color: black;
+        font-size: 45px;
+    }
+    p::after{
+        content: ' ';
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: -10px;
+        background: url(../img/mas.png);
+        background-size:50px ;
+        background-repeat: no-repeat;
+     
+    }
+    
+    h3{
+        color: black;
     }
 }
 .n_muertos{
+    width: 350px;
+    height: 200px;
+    background: #F7A740;
+    border-radius: 15px;
+    padding:20px;
+    margin: auto;
+    font-family: $letra-tres;
     p{
-        color: orangered;
-        font-size: 50px;
+        color: black;
+        font-size: 45px;
+    }
+    p::after{
+        content: ' ';
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: -10px;
+        background: url(../img/menos.png);
+        background-size:50px ;
+        background-repeat: no-repeat;
+     
+    }
+    h3{
+        color: black;
     }
 }
+
 .cuerpo{
     background-color: #383639 !important;
     width: all;
-    height: 100vh;
+    height: all;
+}
+
+@media(min-width:300px){
+    .infectados,.n_muertos,.muertos,.recuperados,.nuevos{
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:500px){
+    .n_muertos,.nuevos{
+        padding-top: 0;
+    }
+}
+.mexico{
+    background-image: linear-gradient(to right,#73D673,white ,#F73738 ); 
+    font-weight: bold;
+    color:black;
+    border-radius: 5px;
+
+    table{
+      border-radius: 5px;
+    }
 }

@@ -9,7 +9,7 @@ var n_m=document.querySelector("#n_muertos");
 
 total();
 llamar();
-
+llamar_mexico();
 
 function total(){
     
@@ -69,3 +69,37 @@ function totales_lista(response){
                           '</tr>'; 
     }
 }
+
+function llamar_mexico(){
+    fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/latest_stat_by_country.php?country=Mexico", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
+            "x-rapidapi-key": "d423a8bdcfmshf99ab32e0573f48p1df31cjsnf607a14c0a34"
+        }
+    })
+    .then(response => response.json())
+    .then(response => {
+       
+        mexico(response);
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
+}
+
+function mexico(response){
+    
+    let mexico = document.getElementById("mexico");
+
+    mexico.innerHTML += '<tr>'+
+                        '<td>'+ response.latest_stat_by_country[0].total_cases + '</td>'+
+                        '<td>'+ response.latest_stat_by_country[0].active_cases + '</td>'+
+                        '<td>'+ response.latest_stat_by_country[0].total_deaths + '</td>'+
+                        '<td>'+ response.latest_stat_by_country[0].total_recovered + '</td>'+
+                        '</tr>' 
+
+    
+}
+    
