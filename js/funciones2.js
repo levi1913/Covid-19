@@ -50,7 +50,7 @@ function llamar(){
     })
     .then(response => response.json())
     .then(response => {
-       
+       console.log(response);
         totales_lista(response);
         
     })
