@@ -7,6 +7,8 @@ var recuperados=document.querySelector("#recuperados");
 var nuevos=document.querySelector("#nuevos");
 var n_m=document.querySelector("#n_muertos");
 
+
+
 total();
 llamar();
 llamar_mexico();
@@ -22,6 +24,12 @@ function total(){
     })
     .then(data => data.json())
     .then(data => {
+        alert("Errores solucionados gracias a un usuario :)")
+       document.querySelector(".cargando").style.display = "none";
+       document.querySelector(".cargando1").style.display = "none";
+       document.querySelector(".cargando2").style.display = "none";
+       document.querySelector(".cargando3").style.display = "none";
+       document.querySelector(".cargando4").style.display = "none";
        totales_info(data)
     })
     .catch(err => {
@@ -30,7 +38,6 @@ function total(){
 }
 function totales_info(data){
    
-    console.log(data.total_cases);
     
     infect.innerHTML +='<p>'+ data.total_cases + '</p>'
     muertos.innerHTML +='<p>'+ data.total_deaths + '</p>'
@@ -50,7 +57,7 @@ function llamar(){
     })
     .then(response => response.json())
     .then(response => {
-       console.log(response);
+       
         totales_lista(response);
         
     })
@@ -60,7 +67,7 @@ function llamar(){
 }
 
 function totales_lista(response){
-    for(let i = 0; i<response.countries_stat.length;i++ ){
+    for(let i = 1; i<response.countries_stat.length;i++ ){
         info.innerHTML += '<tr>'+
                           '<td>'+ response.countries_stat[i].country_name + '</td>'+
                           '<td>'+ response.countries_stat[i].cases + '</td>' +
