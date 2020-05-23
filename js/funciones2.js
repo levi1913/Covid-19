@@ -67,7 +67,7 @@ function llamar(){
 }
 
 function totales_lista(response){
-    for(let i = 1; i<response.countries_stat.length;i++ ){
+    for(let i = 0; i<response.countries_stat.length;i++ ){
         info.innerHTML += '<tr>'+
                           '<td>'+ response.countries_stat[i].country_name + '</td>'+
                           '<td>'+ response.countries_stat[i].cases + '</td>' +
